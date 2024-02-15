@@ -10,7 +10,7 @@ using TestApi.Models;
 namespace API.Migrations
 {
     [DbContext(typeof(TestContext))]
-    [Migration("20240207095113_initialCreate")]
+    [Migration("20240215114038_initialCreate")]
     partial class initialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -18,7 +18,7 @@ namespace API.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.0");
 
-            modelBuilder.Entity("Test.Models.Test", b =>
+            modelBuilder.Entity("TestApi.Models.Test", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

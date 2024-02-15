@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace Test.Models;
+namespace TestApi.Models;
 
 public class Test{
     [Key]
