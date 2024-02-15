@@ -3,6 +3,18 @@ using TestApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddCors(
+    options =>
+    {
+        options.AddPolicy("AllowAnyOrigin",
+            builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+        );
+    }
+);
+
 // Add services to the container.
 builder.Services.AddDbContext<TestContext>( options => options.UseSqlite("Data Source=Test.db"));
 builder.Services.AddControllers();
@@ -11,6 +23,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors("AllowAnyOrigin");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -28,5 +28,20 @@ public class TestController : ControllerBase
             return StatusCode(500);
         }
     }
+
+    [HttpPost]
+    public async Task<ActionResult<Test>> Post([FromBody] Test test)
+    {
+        try
+        {
+            _context.Test.Add(test);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction("Get", new {id = test.Id}, test);
+        }
+        catch
+        {
+            return StatusCode(500);
+        }
+    }
     
 }
