@@ -51,3 +51,4 @@
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.pdb
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.genruntimeconfig.cache
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/ref/BurgerApi.dll
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi.staticwebassets.runtime.json

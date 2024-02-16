@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "2Rn7HHuS9YMRqxFqm/nl681cUcI7jfygr2fhShRDA68=",
+  "Hash": "VinkeAidzQe0RnhqGabR6Nvb3aV1C7+wFYq3+WLLz7Y=",
   "Source": "BurgerApi",
   "BasePath": "_content/BurgerApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "BurgerApi/wwwroot",
+      "Source": "BurgerApi",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "BasePath": "_content/BurgerApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/index.html",
+      "SourceId": "BurgerApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "BasePath": "_content/BurgerApi",
+      "RelativePath": "images/burgers/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/burgers/index.html"
+    }
+  ]
 }
