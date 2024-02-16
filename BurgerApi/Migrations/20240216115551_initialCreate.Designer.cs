@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BurgerApi.Migrations
 {
     [DbContext(typeof(BurgerContext))]
-    [Migration("20240216101126_initialCreate")]
+    [Migration("20240216115551_initialCreate")]
     partial class initialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
