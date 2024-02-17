@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jfphiYMfMrSkeLj7DfBQ0sQOhWvv0v6FxpjpHGmyUbE=",
+  "Hash": "3aMRXVJ0PJOtg9cN3m4K9k7sV1cnQHLu6AAA9ZKTgJ8=",
   "Source": "BurgerApi",
   "BasePath": "_content/BurgerApi",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/burgers/burger1.jpeg"
+    },
+    {
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger2.jpg",
+      "SourceId": "BurgerApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "BasePath": "_content/BurgerApi",
+      "RelativePath": "images/burgers/burger2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/burgers/burger2.jpg"
     },
     {
       "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/index.html",

@@ -32,7 +32,7 @@ const BurgerApiService = (
 
         const getBurgersByName = async (name: string) => {
             try {
-                const result = await axios.get(`${endpoints.burger}/serach/${name}`)
+                const result = await axios.get(`${endpoints.burger}/search/${name}`)
                 console.log(result.data)
                 return result.data as IBurger[]
                 

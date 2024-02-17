@@ -1,11 +1,12 @@
-import React, { ReactNode, createContext, useContext, useState } from 'react';
+import React, { ReactNode, createContext, useContext, useState, useEffect } from 'react';
 import IBurger from '../Interfaces/IBurger';
+import BurgerApiService from '../services/BurgerApiService';
 
 
 interface BurgerContextType {
   allBurgers: IBurger[]
   searchResult: IBurger[]
-  selectedBurger: IBurger | null
+  selectedBurger: IBurger
   updateAllBurgers: (burgers: IBurger[]) => void
   updateSearchResult: (burgers: IBurger[]) => void
   updateSelectedBurger: (burger: IBurger) => void
@@ -23,7 +24,7 @@ const sampleBurger: IBurger = {
 const BurgerContext = createContext<BurgerContextType>({
     allBurgers: [],
     searchResult: [],
-    selectedBurger: null,
+    selectedBurger: sampleBurger,
     updateAllBurgers: function (burgers: IBurger[]): void {},
     updateSearchResult: function (burgers: IBurger[]): void {},
     updateSelectedBurger: function (burger: IBurger): void {}
@@ -33,7 +34,7 @@ export const BurgerContextProvider = ({ children }: {children: ReactNode}) => {
 
     const [allBurgers, setAllBurgers] = useState<IBurger[]>([])
     const [searchResult, setSearchResult] = useState<IBurger[]>([])
-    const [selectedBurger, setSelectedBurger] = useState<IBurger | null>(null)
+    const [selectedBurger, setSelectedBurger] = useState<IBurger>(sampleBurger)
 
 
     const updateAllBurgers = (burgers: IBurger[]) => {
@@ -49,6 +50,23 @@ export const BurgerContextProvider = ({ children }: {children: ReactNode}) => {
       const updateSelectedBurger = (burger: IBurger) => {
         setSelectedBurger(burger);
       };
+
+      useEffect(() => {
+        const fetchData = async () => {
+          try {
+            const burgers = await BurgerApiService.getAllBurgers();
+            if (burgers !== undefined) {
+              updateAllBurgers(burgers)
+              updateSearchResult(burgers)
+            }
+          } catch (error) {
+
+            console.error("Error fetching burgers:", error);
+          }
+        };
+      
+        fetchData();
+      }, []);
 
     return (
         <BurgerContext.Provider value={{
