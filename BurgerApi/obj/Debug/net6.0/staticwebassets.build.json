@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VinkeAidzQe0RnhqGabR6Nvb3aV1C7+wFYq3+WLLz7Y=",
+  "Hash": "jfphiYMfMrSkeLj7DfBQ0sQOhWvv0v6FxpjpHGmyUbE=",
   "Source": "BurgerApi",
   "BasePath": "_content/BurgerApi",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/index.html",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger1.jpeg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
-      "RelativePath": "images/burgers/index.html",
+      "RelativePath": "images/burgers/burger1.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,7 +31,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/burgers/index.html"
+      "OriginalItemSpec": "wwwroot/images/burgers/burger1.jpeg"
+    },
+    {
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/index.html",
+      "SourceId": "BurgerApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "BasePath": "_content/BurgerApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
     }
   ]
 }

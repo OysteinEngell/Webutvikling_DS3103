@@ -4,9 +4,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap'
 import TestComponent from './components/TestComponent';
+import { BurgerContextProvider } from './contexts/BurgerContextProvider';
 
 function App() {
   return (
+    <BurgerContextProvider>
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,6 +20,7 @@ function App() {
         <TestComponent/>
       </header>
     </div>
+    </BurgerContextProvider>
   );
 }
 

@@ -10,4 +10,9 @@ public class Burger: IBurger{
     public string Description {get; set;} = "";
     public int Price {get; set;} 
     public string image {get; set;} = "";
+
+    public static implicit operator List<object>(Burger? v)
+    {
+        throw new NotImplementedException();
+    }
 }
