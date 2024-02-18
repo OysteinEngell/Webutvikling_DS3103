@@ -89,7 +89,7 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
         <Form onSubmit={handleSubmit}>
         <Button 
             variant="dark" 
-            className='w-100'
+            className='mb-3'
             onClick={handleCancel}
             >
             Avbryt
@@ -98,11 +98,12 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
           <FloatingLabel 
             controlId='name'
             label='Navn'
-            className='mb-3'
+            className='mb-3 text-light'
           >
             <Form.Control 
                 type='text' 
                 placeholder=''
+                className='bg-dark text-light'
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required={true}
@@ -111,12 +112,12 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
           </FloatingLabel>
 
           <Form.Group controlId="formDescription">
-            <Form.Label>Description</Form.Label>
+            <Form.Label className='text-light text-left'>Description</Form.Label>
             <Form.Control 
               as="textarea" 
-              rows={3} 
+              rows={6} 
               placeholder="Enter description" 
-              className='mb-3'
+              className='mb-3 bg-dark text-light'
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               required={true}
@@ -124,11 +125,11 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
           </Form.Group>
 
           <Form.Group controlId="formPrice">
-            <Form.Label>Price</Form.Label>
+            <Form.Label className='text-light'>Price</Form.Label>
             <Form.Control 
               type="number" 
               placeholder="0" 
-              className='mb-3'
+              className='mb-3 bg-dark text-light'
               value={price}
               onChange={(e) => setPrice(parseInt(e.target.value))}
               required={true}
@@ -137,12 +138,12 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
 
 
         <Form.Group controlId='formImage' className='mb-3'>
-            <Form.Label>Upload image</Form.Label>
-            <Form.Control onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleFileChanged(e)} type='file' size='lg' />
+            <Form.Label className='text-light'>Upload image</Form.Label>
+            <Form.Control onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleFileChanged(e)} type='file' size='lg' className='bg-dark text-light'/>
         </Form.Group>
 
           <Button  
-            variant="primary" 
+            variant="warning" 
             type="submit"
             className='w-100 mb-3'
             >

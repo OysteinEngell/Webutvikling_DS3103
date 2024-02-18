@@ -29,9 +29,8 @@ const BurgerList: React.FC<Props> = ({setEditMode}) => {
 
   return (
     <div className='p-3'>
-        <p>Lag ny burger eller velg en burger fra listen for å oppdatere eller slette</p>
         <Button onClick={newBurger} variant="primary" size='lg' className='w-100 mb-3'>Legg til ny burger</Button>
-        <div style={{height: '55vh', overflowY: 'auto' }}>
+        <div style={{height: '70vh', overflowY: 'auto' }}>
             {searchResult.map((burger, id)=> (
                 <BurgerListItem burger={burger} setEditMode={setEditMode} key={id} />
             ))}

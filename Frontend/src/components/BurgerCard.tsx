@@ -12,16 +12,29 @@ const BurgerCard: React.FC<Props> = ({burger}) => {
 
   return (
     
-    <div>
+
         
-    <Card>
-    <Card.Img src={`${imagepath}${burger.image}`}></Card.Img>
-    <Card.Title>{burger.name} {burger.price}kr</Card.Title>
-    <Card.Body>{burger.description}</Card.Body>
-    <Button variant='primary'>Legg til i Handlekurv</Button>
+    <Card className='mb-3' bg='dark' text='white'>
+    <Card.Img 
+      src={`${imagepath}${burger.image}`}
+      className='img-fluid'
+      style={{ height: '400px', objectFit: 'cover'}}
+      ></Card.Img>
+    
+    <Card.Body >
+      <Card.Title style={{textAlign: 'left', fontWeight: 'bolder',  color: 'yellow'}}>{burger.name}</Card.Title>
+      <Card.Text
+        style={{textAlign: 'left'}}
+      >{burger.description}</Card.Text>
+      <Button 
+        variant='outline-warning'
+        className='w-100'
+        >Legg til i Handlekurv {burger.price}kr</Button>
+    </Card.Body>
     </Card>
-    </div>
+
   )
 }
+
 
 export default BurgerCard

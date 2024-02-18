@@ -12,8 +12,8 @@ const AppRouter: React.FC = () => {
   return (
     <div>
       <BrowserRouter>
-        <Navbar bg="light" expand="lg">
-          <Navbar.Brand href="/">The Golden Burger</Navbar.Brand>
+        <Navbar bg='dark' data-bs-theme="dark" expand="lg" className='p-3'>
+          <Navbar.Brand href="/" style={{fontWeight: 'bolder', color: 'yellow'}}>The Golden Burger</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">

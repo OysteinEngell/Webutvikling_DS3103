@@ -40,20 +40,7 @@ const SearchComponent: React.FC = () => {
 
   return (
     <div className='p-3'>
-       <FloatingLabel 
-            controlId='searchName'
-            label='Søk etter burger'
-            className='mb-3'
-            
-          >
-            <Form.Control 
-                type='text' 
-                placeholder=''
-                value={searchName}
-                onChange={(e) => handleSearchNameChange(e.target.value)}
-                >
-            </Form.Control>
-        </FloatingLabel>
+       
 
 
             <Row>
@@ -61,10 +48,13 @@ const SearchComponent: React.FC = () => {
                     <FloatingLabel 
                         controlId='searcId'
                         label='Søk med id'
+
                         >
                         <Form.Control 
                             type='number' 
                             placeholder='sm'
+                            size='lg'
+                            className='bg-dark text-light'
                             value={searchId}
                             onChange={(e) => handleSearchByIdChange((parseInt(e.target.value)))}
                             >
@@ -72,12 +62,27 @@ const SearchComponent: React.FC = () => {
                     </FloatingLabel>
                 </Col>
                 <Col>
+                <FloatingLabel 
+            controlId='searchName'
+            label='Søk etter burger'
+            className='mb-3 text-light'
+          >
+            <Form.Control 
+                type='text' 
+                placeholder=''
+                className='bg-dark text-light'
+                size='lg'
+                value={searchName}
+                onChange={(e) => handleSearchNameChange(e.target.value)}
+                >
+            </Form.Control>
+        </FloatingLabel>
 
-                    <Form.Select size='lg' aria-label="sorter">
-                        <option value="1">Id</option>
-                        <option value="2">Pris</option>
+                    {/* <Form.Select size='lg' aria-label="sorter">
+                        <option value="1">Sorter: Id</option>
+                        <option value="2">Sorter: Pris</option>
                         <option value="3">Alfabestisk</option>
-                    </Form.Select>
+                    </Form.Select> */}
                 </Col>
             </Row>
            

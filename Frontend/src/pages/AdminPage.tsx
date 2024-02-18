@@ -14,7 +14,7 @@ const AdminPage: React.FC = () => {
   
 
   return (
-    <div>
+    <div className='bg-black' style={{height: '100vh'}}>
 
         <SearchComponent/>
         {editMode ?  <InputForm burger={selectedBurger} setEditMode={setEditMode}/> : <BurgerList setEditMode={setEditMode}/>}
