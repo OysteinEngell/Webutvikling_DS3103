@@ -3,6 +3,7 @@ import { Button, Form, FloatingLabel } from 'react-bootstrap'
 import IBurger from '../Interfaces/IBurger'
 import BurgerApiService from '../services/BurgerApiService'
 import { useBurgerContext } from '../contexts/BurgerContextProvider'
+import UploadImageService from '../services/UploadImageService'
 
 type Props = {
   burger: IBurger,
@@ -16,6 +17,7 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
   const [description, setDescription] = useState(burger.description)
   const [price, setPrice] = useState(burger.price)
   const [image, setImage] = useState(burger.image)
+  const [imageFile, setImageFile] = useState<File | null>(null)
 
   const handleSubmit = async() => {
       if(burger.id == null){
@@ -37,6 +39,19 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
         const result = await BurgerApiService.updateBurger(burger)
         console.log(result)
       }
+
+      if(imageFile != null){
+        const result = UploadImageService.uploadImage(imageFile)
+      }
+  }
+
+  const handleFileChanged = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0]
+
+    if(file){
+      setImageFile(file)
+      setImage(file.name)
+    }
   }
 
   const handleDelete = async () => {
@@ -118,7 +133,7 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
 
         <Form.Group controlId='formImage' className='mb-3'>
             <Form.Label>Upload image</Form.Label>
-            <Form.Control type='file' size='lg' />
+            <Form.Control onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleFileChanged(e)} type='file' size='lg' />
         </Form.Group>
 
           <Button  

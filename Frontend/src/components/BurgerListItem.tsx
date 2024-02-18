@@ -12,6 +12,7 @@ type Props = {
 const BurgerListItem: React.FC<Props> = ({burger, setEditMode}) => {
 
     const {updateSelectedBurger} = useBurgerContext()
+    const imagepath: string = "https://localhost:7130/images/burgers/"
 
     const selectBurger = () => {
         updateSelectedBurger(burger)
@@ -19,7 +20,8 @@ const BurgerListItem: React.FC<Props> = ({burger, setEditMode}) => {
     }
 
   return (
-    <Card onClick={selectBurger}>
+    <Card onClick={selectBurger} className='mb-3'>
+        <Card.Img src={`${imagepath}${burger.image}`}></Card.Img>
       <Card.Body>{burger.name}</Card.Body>
 
     </Card>
