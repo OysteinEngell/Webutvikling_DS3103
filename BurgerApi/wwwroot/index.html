@@ -3,21 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger API docs</title>
-</head>
-<body>
-    <a href="http://localhost:3000/">Tilbake</a>
-    <h1>API Docs</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente autem voluptas numquam quasi, in sequi doloribus reprehenderit, quo laboriosam nam iure natus exercitationem debitis, blanditiis non optio unde earum perspiciatis tenetur praesentium? Voluptate similique pariatur dolore iusto fugiat impedit exercitationem iure dolor, provident molestias numquam quia reiciendis corrupti debitis! Illum deleniti odit ea expedita, sint rem sunt dolores, explicabo dicta praesentium eum qui, eveniet dignissimos id veritatis maiores iusto eius quaerat fuga. Quos voluptas velit et placeat est officiis dignissimos vel culpa quod saepe? Temporibus amet culpa sint deserunt saepe est, eos repudiandae quo distinctio voluptatum quia, libero illo quidem quod quos iste. Illo, perspiciatis. Doloremque, officiis. Quam vero officia officiis quasi accusamus, placeat excepturi tempora! Praesentium debitis, dolor rerum, nostrum labore sequi nemo magnam officia asperiores, sed nesciunt error sint ratione rem placeat? Reprehenderit natus repudiandae magni deleniti. Aliquam illum autem natus rem ut omnis iste consequatur, expedita inventore beatae perspiciatis quo vel excepturi debitis esse tenetur assumenda velit. Nulla rem, commodi quis porro vel reiciendis aspernatur enim accusantium suscipit assumenda eaque neque cum expedita temporibus. Vero possimus necessitatibus adipisci atque maiores incidunt quisquam nam, nobis ipsam. Doloribus, architecto. Fugit repellat similique numquam esse quisquam ea porro eaque laudantium!</p>
-
+    <title>Burger API Documentation</title>
     <style>
-        body{
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
 
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
     </style>
 
     <script>
-        console.log("API Docs mounted")
+        console.log("Api Docs")
     </script>
+</head>
+<body>
+    <h1>Burger API Documentation</h1>
+    <p>This page provides documentation for the Burger API endpoints.</p>
+    <a href="http://localhost:3000/">Go back to application</a>
+
+    <h2>Getting started</h2>
+    <ul>
+        <li>Make sure that you have installed the .NET SDK. </li>
+        <li>To run the API use the command: <code>dotnet watch run</code></li>
+        <li>If the port provided when running the server is different from the provided endpoint, <br> you will need to update the endpoint inside the BurgerApiService and UploadImageService module located in the src folder within the frontend directory.</li>
+    </ul>
+
+    <h2>Endpoints</h2>
+    <p>Endpoints are added on to the base url: "https://localhost:7130"</p>
+    <p>NOTE: the port may be different when running the server</p>
+    <table>
+        <tr>
+            <th>Endpoint</th>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Parameters</th>
+            <th>Response</th>
+        </tr>
+        <tr>
+            <td>/burger</td>
+            <td>GET</td>
+            <td>Get all burgers</td>
+            <td>N/A</td>
+            <td>List of Burger objects</td>
+        </tr>
+        <tr>
+            <td>/burger/{id}</td>
+            <td>GET</td>
+            <td>Get a specific burger by ID</td>
+            <td>id: integer</td>
+            <td>Burger object</td>
+        </tr>
+        <tr>
+            <td>/burger/search/{name}</td>
+            <td>GET</td>
+            <td>Search for burgers by name</td>
+            <td>name: string</td>
+            <td>List of Burger objects</td>
+        </tr>
+        <tr>
+            <td>/burger</td>
+            <td>POST</td>
+            <td>Create a new burger</td>
+            <td>Burger object (JSON payload)</td>
+            <td>Newly created Burger object</td>
+        </tr>
+        <tr>
+            <td>/burger/burgerList</td>
+            <td>POST</td>
+            <td>Create multiple burgers</td>
+            <td>List of Burger objects (JSON payload)</td>
+            <td>HTTP Status 200 if successful</td>
+        </tr>
+        <tr>
+            <td>/burger</td>
+            <td>PUT</td>
+            <td>Update an existing burger</td>
+            <td>Burger object (JSON payload)</td>
+            <td>HTTP Status 200 if successful</td>
+        </tr>
+        <tr>
+            <td>/burger/{id}</td>
+            <td>DELETE</td>
+            <td>Delete a specific burger by ID</td>
+            <td>id: integer</td>
+            <td>HTTP Status 200 if successful</td>
+        </tr>
+    </table>
+
+    <h2>Sample Requests</h2>
+    <p>Here are some sample requests you can make to the API:</p>
+    <pre>
+        <code>
+            GET https://localhost:7130/burger
+
+        </code>
+        returns:
+
+        <code>
+            [
+                {
+                    "id": 17,
+                    "name": "Royal Truffle Delight",
+                    "description": "Indulge in the opulence of our Royal Truffle Delight burger, featuring succulent wagyu beef infused with black truffle essence. Served with a spread of creamy truffle aioli and nestled between toasted brioche buns, each bite offers a symphony of rich, earthy flavors.",
+                    "price": 350,
+                    "image": "burger1.png"
+                },
+                {...}
+            ]
+        </code>
+    </pre>
+
+    <pre>
+        <code>
+            GET https://localhost:7130/burger/17
+
+        </code>
+        returns:
+
+        <code>
+                {
+                    "id": 17,
+                    "name": "Royal Truffle Delight",
+                    "description": "Indulge in the opulence of our Royal Truffle Delight burger, featuring succulent wagyu beef infused with black truffle essence. Served with a spread of creamy truffle aioli and nestled between toasted brioche buns, each bite offers a symphony of rich, earthy flavors.",
+                    "price": 350,
+                    "image": "burger1.png"
+                }
+        </code>
+    </pre>
+
+    
 </body>
 </html>
