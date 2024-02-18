@@ -1,12 +1,6 @@
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.csproj.AssemblyReference.cache
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.GeneratedMSBuildEditorConfig.editorconfig
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.AssemblyInfoInputs.cache
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.AssemblyInfo.cs
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.csproj.CoreCompileInputs.cache
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.MvcApplicationPartsAssemblyInfo.cs
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.MvcApplicationPartsAssemblyInfo.cache
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/appsettings.Development.json
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/appsettings.json
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi.staticwebassets.runtime.json
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi.deps.json
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi.runtimeconfig.json
@@ -42,6 +36,13 @@
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.csproj.AssemblyReference.cache
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.AssemblyInfoInputs.cache
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.AssemblyInfo.cs
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.csproj.CoreCompileInputs.cache
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.MvcApplicationPartsAssemblyInfo.cache
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/staticwebassets.build.json
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/staticwebassets.development.json
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/scopedcss/bundle/BurgerApi.styles.css
@@ -51,4 +52,3 @@
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.pdb
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/BurgerApi.genruntimeconfig.cache
 /Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/Debug/net6.0/ref/BurgerApi.dll
-/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/bin/Debug/net6.0/BurgerApi.staticwebassets.runtime.json

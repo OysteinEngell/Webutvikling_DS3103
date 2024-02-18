@@ -8,12 +8,14 @@ type Props = {
 
 const BurgerCard: React.FC<Props> = ({burger}) => {
 
+    const imagepath: string = "https://localhost:7130/images/burgers/"
+
   return (
     
     <div>
         
     <Card>
-    <Card.Img src='https://localhost:7130/images/burgers/burger2.jpg' alt='Burger'></Card.Img>
+    <Card.Img src={`${imagepath}${burger.image}`}></Card.Img>
     <Card.Title>{burger.name} {burger.price}kr</Card.Title>
     <Card.Body>{burger.description}</Card.Body>
     <Button variant='primary'>Legg til i Handlekurv</Button>
