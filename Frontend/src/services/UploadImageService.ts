@@ -3,7 +3,7 @@ import axios from "axios";
 const UploadImageService = (
     () => {
         const endpoints = {
-            burger: "https://localhost:7130/UploadImage/burger"
+            burger: "https://localhost:7130/UploadImage"
         };
 
         const uploadImage = async (image: File) => {

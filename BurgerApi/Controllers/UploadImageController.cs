@@ -14,7 +14,6 @@ public class UploadImageController : ControllerBase
     }
 
     [HttpPost]
-    [Route("burger")]
     public async Task<ActionResult> SaveImage(IFormFile file)
     {
         try

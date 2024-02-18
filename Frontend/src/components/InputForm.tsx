@@ -20,6 +20,12 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
   const [imageFile, setImageFile] = useState<File | null>(null)
 
   const handleSubmit = async() => {
+
+    if(imageFile != null){
+      const result = await UploadImageService.uploadImage(imageFile)
+      console.log("ImageUpload:" + result)
+    }
+
       if(burger.id == null){
         const newBurger: IBurger = {
           name: name,
@@ -40,13 +46,12 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
         console.log(result)
       }
 
-      if(imageFile != null){
-        const result = UploadImageService.uploadImage(imageFile)
-      }
+      
   }
 
   const handleFileChanged = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0]
+    
 
     if(file){
       setImageFile(file)

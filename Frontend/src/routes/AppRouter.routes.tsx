@@ -9,15 +9,6 @@ import { Nav, Navbar } from 'react-bootstrap'
 const AppRouter: React.FC = () => {
 
 
-  const RedirectToDocs: React.FC = () => {
-    const navigate = useNavigate();
-    React.useEffect(() => {
-      navigate('https://localhost:7130/index.html', { replace: true });
-    }, [navigate]);
-    return null;
-  };
-  
-
   return (
     <div>
       <BrowserRouter>
