@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import BurgerListItem from './BurgerListItem'
 import { useBurgerContext } from '../contexts/BurgerContextProvider'
-import { Button, ListGroup } from 'react-bootstrap'
+import { Button, Col, ListGroup, Row } from 'react-bootstrap'
 import IBurger from '../Interfaces/IBurger'
 
 type Props = {
