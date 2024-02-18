@@ -1,5 +1,5 @@
 interface IBurger{
-    id: number | null,
+    id?: number | null,
     name: string,
     description: string,
     price: number,

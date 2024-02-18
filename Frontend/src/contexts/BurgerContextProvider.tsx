@@ -13,7 +13,6 @@ interface BurgerContextType {
 }
 
 const sampleBurger: IBurger = {
-    id: null,
     name: '',
     description: '',
     price: 0,

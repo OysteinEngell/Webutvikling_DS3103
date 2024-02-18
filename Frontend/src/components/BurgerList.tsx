@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BurgerListItem from './BurgerListItem'
 import { useBurgerContext } from '../contexts/BurgerContextProvider'
 import { Button } from 'react-bootstrap'
@@ -10,11 +10,11 @@ type Props = {
 
 const BurgerList: React.FC<Props> = ({setEditMode}) => {
 
-    const {searchResult, updateSelectedBurger} = useBurgerContext() 
+    const {searchResult, updateSelectedBurger, allBurgers} = useBurgerContext() 
+
 
     const newBurger = () => {
         const newBurger: IBurger = {
-            id: null,
             name: '',
             description: '',
             price: 0,
@@ -23,6 +23,8 @@ const BurgerList: React.FC<Props> = ({setEditMode}) => {
         updateSelectedBurger(newBurger)
         setEditMode(true)
     }
+
+
 
 
   return (

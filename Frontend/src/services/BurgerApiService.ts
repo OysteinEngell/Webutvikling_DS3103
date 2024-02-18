@@ -61,7 +61,7 @@ const BurgerApiService = (
 
         const deleteBurger = async (id: number) => {
             try {
-                const result = await axios.delete(`${endpoints.burger}/${id}`)
+                const result = await axios.delete(`${endpoints.burger}?id=${id}`)
                 console.log(result)
             } catch (error) {
                 console.log(error)
