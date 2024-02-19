@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
 import AdminPage from '../pages/AdminPage'
 import MenuPage from '../pages/MenuPage'
 import { Nav, Navbar } from 'react-bootstrap'
 import ShoppingCartPage from '../pages/ShoppingCartPage'
+import IBurger from '../Interfaces/IBurger'
 
 
 

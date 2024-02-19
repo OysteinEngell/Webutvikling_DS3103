@@ -4,9 +4,10 @@ import { Button, Card } from 'react-bootstrap'
 
 type Props = {
     burger: IBurger
+    toggleToast: () => void
 }
 
-const BurgerCard: React.FC<Props> = ({burger}) => {
+const BurgerCard: React.FC<Props> = ({burger, toggleToast}) => {
 
     const imagepath: string = "https://localhost:7130/images/burgers/"
 
@@ -20,7 +21,7 @@ const BurgerCard: React.FC<Props> = ({burger}) => {
         const newBurgerArray = JSON.parse(storedBurgers) as IBurger[]
         newBurgerArray.push(burger)
         localStorage.setItem("cart", JSON.stringify(newBurgerArray))
-
+        toggleToast()
       }
 
     }

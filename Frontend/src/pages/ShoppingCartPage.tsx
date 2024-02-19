@@ -27,14 +27,14 @@ const ShoppingCartPage: React.FC = () => {
         const total = localBurgers.reduce((acc, burger) => acc + burger.price, 0 )
         setTotalPrice(total)
     }
+    useEffect(() => {
+        getTotalPrice()
+    }, [localBurgers])
 
     useEffect(() => {
         getLocalStorage()
     }, [])
 
-    useEffect(() => {
-        getTotalPrice()
-    }, [localBurgers])
 
   return (
     <div className='bg-black text-light p-3' style={{height: '100lvh'}}>

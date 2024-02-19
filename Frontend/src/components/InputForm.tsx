@@ -8,9 +8,11 @@ import UploadImageService from '../services/UploadImageService'
 type Props = {
   burger: IBurger,
   setEditMode: React.Dispatch<React.SetStateAction<boolean>>
+  setToastMessage: React.Dispatch<React.SetStateAction<string>>
+  toggleToast: () => void
 }
 
-const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
+const InputForm: React.FC<Props> = ({burger, setEditMode, toggleToast, setToastMessage}) => {
 
   const {updateAllBurgers, updateSearchResult} = useBurgerContext()
   const [name, setName] = useState(burger.name)
@@ -46,7 +48,8 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
         console.log(result)
       }
 
-      
+      setToastMessage("Burger has been submitted!")
+      toggleToast()
   }
 
   const handleFileChanged = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -71,6 +74,8 @@ const InputForm: React.FC<Props> = ({burger, setEditMode}) => {
 
         
       }
+      setToastMessage("Burger deleted")
+      toggleToast()
       setEditMode(false)
   }
 
