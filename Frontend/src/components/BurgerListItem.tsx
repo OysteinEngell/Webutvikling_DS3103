@@ -31,6 +31,7 @@ const BurgerListItem: React.FC<Props> = ({burger, setEditMode}) => {
             <Card.Title style={{textAlign: 'left'}}>
               {burger.name}
             </Card.Title>  
+            <Card.Text>{burger.price}kr</Card.Text>
           </Card.Body>
         </Col>
       </Row>
