@@ -39,10 +39,14 @@ const ShoppingCartPage: React.FC = () => {
   return (
     <div className='bg-black text-light p-3' style={{height: '100lvh'}}>
         <Row xs={1} lg={2}>
+            <Col className='mb-3'>
+                <h2>Checkout</h2>
+                <Button variant="outline-warning" onClick={checkout}>Purchase {totalPrice}kr</Button>
+            </Col>
             <Col>
             <h2>Your order:</h2>
                 {localBurgers.map((burger, id) => (
-                <Card bg='dark' text='white' key={id}>
+                <Card bg='dark' text='white' key={id} className='mb-3'>
                     <Row>
                         <Col>
                             <Card.Img src={`https://localhost:7130/images/burgers/${burger.image}`} style={{height: '100px', objectFit: 'cover'}}></Card.Img>
@@ -50,7 +54,7 @@ const ShoppingCartPage: React.FC = () => {
                         <Col>
                             <Card.Body>
                                 <Card.Title>{burger.name}</Card.Title>
-                                <Card.Text>{burger.price}</Card.Text>
+                                <Card.Text>{burger.price}kr</Card.Text>
                             </Card.Body>
                         
                         </Col>
@@ -58,10 +62,7 @@ const ShoppingCartPage: React.FC = () => {
                 </Card>
                 ))}
             </Col>
-            <Col>
-                <h2>Checkout</h2>
-                <Button variant="outline-warning" onClick={checkout}>Purchase {totalPrice}kr</Button>
-            </Col>
+            
         </Row>
       
     </div>
