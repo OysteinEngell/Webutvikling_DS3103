@@ -1,8 +1,9 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes, Link, useNavigate } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, Link} from 'react-router-dom'
 import AdminPage from '../pages/AdminPage'
 import MenuPage from '../pages/MenuPage'
 import { Nav, Navbar } from 'react-bootstrap'
+import ShoppingCartPage from '../pages/ShoppingCartPage'
 
 
 
@@ -19,6 +20,7 @@ const AppRouter: React.FC = () => {
             <Nav className="mr-auto">
               <Nav.Link as={Link} to="/">Menu</Nav.Link>
               <Nav.Link as={Link} to="/admin">Admin</Nav.Link>
+              <Nav.Link as={Link} to="/cart">Cart</Nav.Link>
               <Nav.Link as={Link} to="https://localhost:7130/index.html">API docs</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -27,6 +29,7 @@ const AppRouter: React.FC = () => {
         <Routes>
           <Route path="/" element={<MenuPage />} />
           <Route path="/admin" element={<AdminPage />} />
+          <Route path='/cart' element={<ShoppingCartPage/>}></Route>
           <Route path='https://localhost:7130/index.html' />
         </Routes>
       </BrowserRouter>

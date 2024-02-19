@@ -24,13 +24,12 @@ const BurgerList: React.FC<Props> = ({setEditMode}) => {
         setEditMode(true)
     }
 
-
-
-
   return (
-    <div className='p-3'>
+    <div className='p-3 ' style={{height: '100vh'}}>
+
         <Button onClick={newBurger} variant="primary" size='lg' className='w-100 mb-3'>Legg til ny burger</Button>
-        <div style={{height: '70vh', overflowY: 'auto' }}>
+
+        <div style={{ height: '85vh', overflowY: 'auto', overflowX: 'hidden', paddingBottom: '100px'}}>
             {searchResult.map((burger, id)=> (
                 <BurgerListItem burger={burger} setEditMode={setEditMode} key={id} />
             ))}

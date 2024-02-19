@@ -41,14 +41,30 @@ const SearchComponent: React.FC = () => {
   return (
     <div className='p-3'>
        
+            <Row xs={2} md={2} lg={1}>
+                <Col>
+                    <FloatingLabel 
+                        controlId='searchName'
+                        label='Søk etter burger'
+                        className='mb-3 text-light'
+                    >
+                        <Form.Control 
+                            type='text' 
+                            placeholder=''
+                            className='bg-dark text-light'
+                            size='lg'
+                            value={searchName}
+                            onChange={(e) => handleSearchNameChange(e.target.value)}
+                            >
+                        </Form.Control>
+                    </FloatingLabel>
 
+                </Col>
 
-            <Row>
                 <Col>
                     <FloatingLabel 
                         controlId='searcId'
                         label='Søk med id'
-
                         >
                         <Form.Control 
                             type='number' 
@@ -61,34 +77,7 @@ const SearchComponent: React.FC = () => {
                         </Form.Control>
                     </FloatingLabel>
                 </Col>
-                <Col>
-                <FloatingLabel 
-            controlId='searchName'
-            label='Søk etter burger'
-            className='mb-3 text-light'
-          >
-            <Form.Control 
-                type='text' 
-                placeholder=''
-                className='bg-dark text-light'
-                size='lg'
-                value={searchName}
-                onChange={(e) => handleSearchNameChange(e.target.value)}
-                >
-            </Form.Control>
-        </FloatingLabel>
-
-                    {/* <Form.Select size='lg' aria-label="sorter">
-                        <option value="1">Sorter: Id</option>
-                        <option value="2">Sorter: Pris</option>
-                        <option value="3">Alfabestisk</option>
-                    </Form.Select> */}
-                </Col>
             </Row>
-           
-
-        
-        
     </div>
   )
 }

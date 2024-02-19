@@ -15,7 +15,7 @@ const AdminPage: React.FC = () => {
   
 
   return (
-    <div className='bg-black' style={{height: '100vh'}}>
+    <div className='bg-black' style={{height: '100vh', paddingLeft: '5vw', paddingRight: '5vw'}}>
 
       <Row xs={1} lg={2}>
         <Col>

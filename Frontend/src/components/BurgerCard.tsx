@@ -10,6 +10,21 @@ const BurgerCard: React.FC<Props> = ({burger}) => {
 
     const imagepath: string = "https://localhost:7130/images/burgers/"
 
+    const addToCart = () => {
+      const storedBurgers = localStorage.getItem("cart")
+      if(storedBurgers == null){
+        localStorage.setItem("cart", "")
+      }else if(storedBurgers == ""){
+        localStorage.setItem("cart", JSON.stringify([burger]))
+      }else{
+        const newBurgerArray = JSON.parse(storedBurgers) as IBurger[]
+        newBurgerArray.push(burger)
+        localStorage.setItem("cart", JSON.stringify(newBurgerArray))
+
+      }
+
+    }
+
   return (
     
 
@@ -29,6 +44,7 @@ const BurgerCard: React.FC<Props> = ({burger}) => {
       <Button 
         variant='outline-warning'
         className='w-100'
+        onClick={addToCart}
         >Legg til i Handlekurv {burger.price}kr</Button>
     </Card.Body>
     </Card>
