@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/BurgerApi.csproj": {}
+    "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/BurgerApi.csproj": {}
   },
   "projects": {
-    "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/BurgerApi.csproj": {
+    "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/BurgerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/BurgerApi.csproj",
+        "projectUniqueName": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/BurgerApi.csproj",
         "projectName": "BurgerApi",
-        "projectPath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/BurgerApi.csproj",
+        "projectPath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/BurgerApi.csproj",
         "packagesPath": "/Users/oysteinengell/.nuget/packages/",
-        "outputPath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/obj/",
+        "outputPath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/oysteinengell/.nuget/NuGet/NuGet.Config"

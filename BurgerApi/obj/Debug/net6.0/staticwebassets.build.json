@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "czb3cBZe03ucTa/CPFwFfAYPrGjm4+lYrcymfKRh+9w=",
+  "Hash": "kuFSr9LQIZDSzIU3M2t3OnuEzrxZXZ7zInsPAKFaEvI=",
   "Source": "BurgerApi",
   "BasePath": "_content/BurgerApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BurgerApi/wwwroot",
       "Source": "BurgerApi",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger1.png",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger1.png",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger1.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger1.png"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger10.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger10.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger10.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger10.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger11.jpeg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger11.jpeg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger11.jpeg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger11.jpeg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger2.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger2.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger2.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger2.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger3.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger3.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger3.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger3.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger4.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger4.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger4.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger4.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger5.webp",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger5.webp",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger5.webp",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger5.webp"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger6.webp",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger6.webp",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger6.webp",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger6.webp"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger7.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger7.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger7.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger7.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger8.webp",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger8.webp",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger8.webp",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger8.webp"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/images/burgers/burger9.jpg",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/images/burgers/burger9.jpg",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "images/burgers/burger9.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/images/burgers/burger9.jpg"
     },
     {
-      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/index.html",
+      "Identity": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/index.html",
       "SourceId": "BurgerApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/wwwroot/",
+      "ContentRoot": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/wwwroot/",
       "BasePath": "_content/BurgerApi",
       "RelativePath": "index.html",
       "AssetKind": "All",

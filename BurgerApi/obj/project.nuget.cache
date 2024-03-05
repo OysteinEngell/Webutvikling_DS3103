@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7eWybWgUrgJ5lbpQSUL6i2YmxKsnQRquOndgDGtETmGwKcLEyxT4BZnK2SMGfGCvIwspL4Rp64HVDtkdxYY6lQ==",
+  "dgSpecHash": "BY/8TQ5AKM/FWnpd++56Q1IszQDVpgJCzfooaG7x3KQxcx41RuX/a7Dkdo34PkGkjhAnFWAmILvQrPPEaXKGDw==",
   "success": true,
-  "projectFilePath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/Webutvikling_DS3103/BurgerApi/BurgerApi.csproj",
+  "projectFilePath": "/Users/oysteinengell/Desktop/Høyskolen-Kristiania/Kont/WebutviklingKont/DS3103_kandidat-11/BurgerApi/BurgerApi.csproj",
   "expectedPackageFiles": [
     "/Users/oysteinengell/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/oysteinengell/.nuget/packages/microsoft.data.sqlite.core/6.0.0/microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
